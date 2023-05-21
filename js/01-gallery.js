@@ -36,5 +36,6 @@ galleryEl.addEventListener('click', event => {
     if (event.code === 'Escape') {
       instance.close();
     }
+    instance.close(() => console.log('lightbox not visible anymore'));
   });
 });
