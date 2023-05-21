@@ -39,3 +39,4 @@ galleryEl.addEventListener('click', event => {
     instance.close(() => console.log('lightbox not visible anymore'));
   });
 });
+//comment
